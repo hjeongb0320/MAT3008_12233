@@ -1,0 +1,2 @@
+runMachAr : hw_1.c hw_1.c /Users/mac/Desktop/3-2/수치해석/NRs/ansi/recipes/machar_float.c /Users/mac/Desktop/3-2/수치해석/NRs/ansi/recipes/machar_double.c /Users/mac/Desktop/3-2/수치해석/NRs/ansi/other/nr.h
+	cc -o runMachAr hw_1.c /Users/mac/Desktop/3-2/수치해석/NRs/ansi/recipes/machar_float.c /Users/mac/Desktop/3-2/수치해석/NRs/ansi/recipes/machar_double.c -I /Users/mac/Desktop/3-2/수치해석/NRs/ansi/other
