@@ -122,6 +122,7 @@ float dbrent(float ax, float bx, float cx,
 	float (*f)(float), float (*df)(float), float tol, float *xmin);
 void ddpoly(float c[], int nc, float x, float pd[], int nd);
 int decchk(char string[], int n, char *ch);
+float derivative(float x);
 void derivs(float x, float y[], float dydx[]);
 float df1dim(float x);
 void dfour1(double data[], unsigned long nn, int isign);
@@ -322,6 +323,7 @@ void mrqmin(float x[], float y[], float sig[], int ndata, float a[],
 	void (*funcs)(float, float [], float *, float [], int), float *alamda);
 void newt(float x[], int n, int *check,
 	void (*vecfunc)(int, float [], float []));
+float nonlinear_equation(float x);
 void odeint(float ystart[], int nvar, float x1, float x2,
 	float eps, float h1, float hmin, int *nok, int *nbad,
 	void (*derivs)(float, float [], float []),
@@ -419,6 +421,7 @@ float rtnewt(void (*funcd)(float, float *, float *), float x1, float x2,
 float rtsafe(void (*funcd)(float, float *, float *), float x1, float x2,
 	float xacc);
 float rtsec(float (*func)(float), float x1, float x2, float xacc);
+float muller(float (*func)(float), float x0, float x1, float xacc);
 void rzextr(int iest, float xest, float yest[], float yz[], float dy[], int nv);
 void savgol(float c[], int np, int nl, int nr, int ld, int m);
 void score(float xf, float y[], float f[]);
