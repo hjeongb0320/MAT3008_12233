@@ -1,0 +1,2 @@
+runMain : hw_3.c hw_3.c ../NRs/ansi/recipes/mprove.c ../NRs/ansi/recipes/pythag.c ../NRs/ansi/recipes/svdcmp.c ../NRs/ansi/recipes/lubksb.c ../NRs/ansi/recipes/ludcmp.c ../NRs/ansi/recipes/gaussj.c ../NRs/ansi/other/nr.h ../NRs/ansi/other/nrutil.h
+	cc -o runMain hw_3.c ../NRs/ansi/recipes/mprove.c ../NRs/ansi/recipes/pythag.c ../NRs/ansi/recipes/svdcmp.c ../NRs/ansi/recipes/lubksb.c ../NRs/ansi/recipes/ludcmp.c ../NRs/ansi/recipes/gaussj.c ../NRs/ansi/recipes/nrutil.c -I ../NRs/ansi/other
