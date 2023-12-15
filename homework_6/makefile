@@ -1,0 +1,2 @@
+runMain : hw_6.c hw_6.c ../NRs/ansi/recipes/gaussj.c ../NRs/ansi/other/nr.h ../NRs/ansi/other/nrutil.h
+	cc -o runMain hw_6.c ../NRs/ansi/recipes/gaussj.c  ../NRs/ansi/recipes/nrutil.c -I ../NRs/ansi/other
